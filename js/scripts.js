@@ -4,11 +4,9 @@ var dinosaur = 'triceratops';
 var dinosaurUpperCased = dinosaur.toUpperCase();
 console.log(dinosaurUpperCased);
 
-var nameAfter = text.replace('Velociraptor', 'Dinosaur')
+var nameAfter = text.replace('Velociraptor', 'Dinosaur');
 console.log(nameAfter);
 
-var polowaZdania = text.substr(0, 73)
-console.log(polowaZdania);
+var halfSentence = nameAfter.substr(0, nameAfter.length/2); 
+console.log(halfSentence);
 
-// console.log(nameAfter.length/2);
-// console.log(text.length);
