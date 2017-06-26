@@ -4,9 +4,9 @@ var dinosaur = 'triceratops';
 var dinosaurUpperCased = dinosaur.toUpperCase();
 console.log(dinosaurUpperCased);
 
-var nameAfter = text.replace('Velociraptor', 'Dinosaur');
+var nameAfter = text.replace('Velociraptor', 'Triceratops');
 console.log(nameAfter);
 
-var halfSentence = nameAfter.substr(0, nameAfter.length/2); 
+var halfSentence = nameAfter.substr(1, nameAfter.length / 2); 
 console.log(halfSentence);
 
